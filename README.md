@@ -1,23 +1,25 @@
-# TÃTULO DO PROJETO
+# Classificação WIfI
 
-`CURSO`
+`Análise e Desenvolvimento de Sistemas`
 
-`DISCIPLINA`
+`Desenvolvimento de Aplicação Web Front-End`
 
-`SEMESTRE`
+`1º Periodo`
 
-Descrever resumidamente, em um ou dois parÃ¡grafos, o projeto que estÃ¡ sendo desenvolvido.
+Fornecer uma ferramenta funcional e acessível para avaliar a gravidade clínica e o prognóstico dos membros inferiores ameaçados, segundo os critérios do método WIfI, permitindo uma tomada de decisão mais precisa sobre o tratamento e prevenção da doença, melhorando o cuidado dos pacientes. Como objetivos específicos, esta aplicação visa fornencer uma forma de entrada de dados, ou seja, dos critérios avaliados, ágil e bem discriminada no intuito de reduzir a possibilidade de erros. Além disso, a aplicação deverá calcular automaticamente o resultado da classificação a partir dos dados recebidos e mostrar esse resultado ao usuário em poucos passos.
 
 ## Integrantes
 
-* Nome completo do aluno 1
-* Nome completo do aluno 2
-* Nome completo do aluno 3
-* Nome completo do aluno 4
+* Bruno lima sousa
+* Gabriel Muzzi
+* João Paulo de Freitas Teixeira Leite
+* Vanderson Barbosa de Oliveira
+* Luilson de Jesus Brandão
+
 
 ## Orientador
 
-* Nome completo do professor 1
+* Joyce Christina de Paiva Carval
 
 ## InstruÃ§Ãµes de utilizaÃ§Ã£o
 
