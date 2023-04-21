@@ -1,20 +1,20 @@
-# ClassificaÁ„o WIfI
+# Classifica√ß√£o WIfI
 
-`An·lise e Desenvolvimento de Sistemas`
+`An√°lise e Desenvolvimento de Sistemas`
 
-`Desenvolvimento de AplicaÁ„o Web Front-End`
+`Desenvolvimento de Aplica√ß√£o Web Front-End`
 
-`1∫ Periodo`
+`1¬∫ Periodo`
 
-Fornecer uma ferramenta funcional e acessÌvel para avaliar a gravidade clÌnica e o prognÛstico dos membros inferiores ameaÁados, segundo os critÈrios do mÈtodo WIfI, permitindo uma tomada de decis„o mais precisa sobre o tratamento e prevenÁ„o da doenÁa, melhorando o cuidado dos pacientes. Como objetivos especÌficos, esta aplicaÁ„o visa fornencer uma forma de entrada de dados, ou seja, dos critÈrios avaliados, ·gil e bem discriminada no intuito de reduzir a possibilidade de erros. AlÈm disso, a aplicaÁ„o dever· calcular automaticamente o resultado da classificaÁ„o a partir dos dados recebidos e mostrar esse resultado ao usu·rio em poucos passos.
+Fornecer uma ferramenta funcional e acess√≠vel para avaliar a gravidade cl√≠nica e o progn√≥stico dos membros inferiores amea√ßados, segundo os crit√©rios do m√©todo WIfI, permitindo uma tomada de decis√£o mais precisa sobre o tratamento e preven√ß√£o da doen√ßa, melhorando o cuidado dos pacientes. Como objetivos espec√≠ficos, esta aplica√ß√£o visa fornencer uma forma de entrada de dados, ou seja, dos crit√©rios avaliados, √°gil e bem discriminada no intuito de reduzir a possibilidade de erros. Al√©m disso, a aplica√ß√£o dever√° calcular automaticamente o resultado da classifica√ß√£o a partir dos dados recebidos e mostrar esse resultado ao usu√°rio em poucos passos.
 
 ## Integrantes
 
-* Bruno lima sousa
+* Bruno de Lima e Souza
 * Gabriel Muzzi
-* Jo„o Paulo de Freitas Teixeira Leite
+* Jo√£o Paulo de Freitas Teixeira Leite
 * Vanderson Barbosa de Oliveira
-* Luilson de Jesus Brand„o
+* Luilson de Jesus Brand√£o
 
 
 ## Orientador
