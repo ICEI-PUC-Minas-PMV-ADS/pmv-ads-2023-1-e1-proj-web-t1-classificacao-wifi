@@ -1,13 +1,10 @@
-# Introdução
+# Documentação de Contexto
 
-Texto descritivo com a visão geral do projeto abordado. Inclui o contexto, o problema, os objetivos, a justificativa e o público-alvo do projeto.
+A classificação WIfI (abreviação para Wound, Ischemia, e foot Infection)  é um sistema de classificação desenvolvido pela Society for Vascular Surgery. Esse sistema leva em consideração três parâmetros - ferida (Wound, W), isquemia (Ischemia, I) e infecção do pé (foot Infection, fI) – os quais são cruzados para se obter a classificação. O objetivo desse sistema de classificação é “fornecer estratificação de risco precisa e precoce ao paciente com membro inferior ameaçado; auxiliar no manejo clinico, premitindo comparar terapias alternativas; e predizer o risco de amputação em 1 ano e a necessidade de revascularização.” (CERQUEIRA et al., 2020)
 
 ## Problema
-Nesse momento você deve apresentar o problema que a sua aplicação deve  resolver. No entanto, não é a hora de comentar sobre a aplicação.
 
-Descreva também o contexto em que essa aplicação será usada, se  houver: empresa, tecnologias, etc. Novamente, descreva apenas o que de  fato existir, pois ainda não é a hora de apresentar requisitos  detalhados ou projetos.
-
-Nesse momento, o grupo pode optar por fazer uso  de ferramentas como Design Thinking, que permite um olhar de ponta a ponta para o problema.
+O processo de cruzamento dos 3 critérios abrangidos pelo método WIfI gera 64 resultados possíveis que, normalmente, são obtidos manualmente através da visualização de uma tabela. Essa forma de obtenção de resultado é uma potencial fonte de erro humano, além de tornar o processo mais demorado. 
 
 > **Links Úteis**:
 > - [Objetivos, Problema de pesquisa e Justificativa](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
@@ -16,26 +13,20 @@ Nesse momento, o grupo pode optar por fazer uso  de ferramentas como Design Thin
 
 ## Objetivos
 
-Aqui você deve descrever os objetivos do trabalho indicando que o objetivo geral é desenvolver um software para solucionar o problema apresentado acima. 
+Fornecer uma ferramenta funcional e acessível para avaliar a gravidade clínica e o prognóstico dos membros inferiores ameaçados, segundo os critérios do método WIfI, permitindo uma tomada de decisão mais precisa sobre o tratamento e prevenção da doença, melhorando o cuidado dos pacientes. 
 
-Apresente também alguns (pelo menos 2) objetivos específicos dependendo de onde você vai querer concentrar a sua prática investigativa, ou como você vai aprofundar no seu trabalho.
- 
-> **Links Úteis**:
-> - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
+### Objetivos específicos: 
+- Fornencer uma forma de entrada de dados, ou seja, dos critérios avaliados, ágil e bem discriminada no intuito de reduzir a possibilidade de erros. 
+- A aplicação deverá calcular automaticamente o resultado da classificação a partir dos dados recebidos e mostrar esse resultado ao usuário em poucos passos.
 
 ## Justificativa
 
-Descreva a importância ou a motivação para trabalhar com esta aplicação que você escolheu. Indique as razões pelas quais você escolheu seus objetivos específicos ou as razões para aprofundar em certos aspectos do software.
-
-O grupo de trabalho pode fazer uso de questionários, entrevistas e dados estatísticos, que podem ser apresentados, com o objetivo de esclarecer detalhes do problema que será abordado pelo grupo.
-
-> **Links Úteis**:
-> - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
+Um estudo europeu acerca do perfil dos pacientes atendidos pelo departamento de emergência vascular em hospitais da grécia ao longo de um período de 2 anos  apontou que aproximadamente 40% dos enfermos apresentavam um quadro de infecção de extremidades inferiores ou úlceras crônicas em pé diabético (KOTSIKORIS et al, 2011). Já um outro artigo (AL-THANI et al, 2018), publicado pela revista médica BMJ open, revela que 65% dos casos de amputação se dão nos membros inferiores, sendo que 75% desses casos estão relacionados a doença do pé diabético. Ainda conforme o mesmo artigo, associado a esse grande número de casos, o custo relativo ao tratamento de ulcerações de pés diabéticos representa mais de 80% do valor gasto estimado em casos envolvendo amputações. 
+Diante deste cenário, a ferramenta pode ajudar a melhorar a precisão na utilização do método wifi para o diagnóstico e tratamento dos membros inferiores ameaçados, reduzindo a morbidade e a mortalidade associadas à doença. Além disso, aumentar a eficiência do processo de coleta e classificação de dados pelos profissionais de saúde, uma vez que a manipulação das informações de forma dinâmica, organizada e precisa, pode minimizar a possibilidade de erro humano durante o tratamento desses dados. Com isso, é possível proporcionar um cuidado adequado e personalizado para um maior número de pacientes.
 
 ## Público-Alvo
 
-Descreva quem serão as pessoas que usarão a sua aplicação indicando os diferentes perfis. O objetivo aqui não é definir quem serão os clientes ou quais serão os papéis dos usuários na aplicação. A ideia é, dentro do possível, conhecer um pouco mais sobre o perfil dos usuários: conhecimentos prévios, relação com a tecnologia, relações
-hierárquicas, etc.
+A aplicação web para a classificação wifi tem como público-alvo os profissionais de saúde que atuam no tratamento e prevenção da doença arterial periférica em membros inferiores, como cirurgiões vasculares, eventualmente ortopedistas e residentes de tais áreas.
 
 Adicione informações sobre o público-alvo por meio de uma descrição textual, diagramas de personas e mapa de stakeholders.
 
