@@ -6,11 +6,6 @@ A classificação WIfI (abreviação para Wound, Ischemia, e foot Infection)  é
 
 O processo de cruzamento dos 3 critérios abrangidos pelo método WIfI gera 64 resultados possíveis que, normalmente, são obtidos manualmente através da visualização de uma tabela. Essa forma de obtenção de resultado é uma potencial fonte de erro humano, além de tornar o processo mais demorado. 
 
-> **Links Úteis**:
-> - [Objetivos, Problema de pesquisa e Justificativa](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
-> - [Matriz Certezas, Suposições e Dúvidas](https://medium.com/educa%C3%A7%C3%A3o-fora-da-caixa/matriz-certezas-suposi%C3%A7%C3%B5es-e-d%C3%BAvidas-fa2263633655)
-> - [Brainstorming](https://www.euax.com.br/2018/09/brainstorming/)
-
 ## Objetivos
 
 Fornecer uma ferramenta funcional e acessível para avaliar a gravidade clínica e o prognóstico dos membros inferiores ameaçados, segundo os critérios do método WIfI, permitindo uma tomada de decisão mais precisa sobre o tratamento e prevenção da doença, melhorando o cuidado dos pacientes. 
@@ -28,10 +23,3 @@ Diante deste cenário, a ferramenta pode ajudar a melhorar a precisão na utiliz
 
 A aplicação web para a classificação wifi tem como público-alvo os profissionais de saúde que atuam no tratamento e prevenção da doença arterial periférica em membros inferiores, como cirurgiões vasculares, eventualmente ortopedistas e residentes de tais áreas.
 
-Adicione informações sobre o público-alvo por meio de uma descrição textual, diagramas de personas e mapa de stakeholders.
-
-> **Links Úteis**:
-> - [Público-alvo](https://blog.hotmart.com/pt-br/publico-alvo/)
-> - [Como definir o público alvo](https://exame.com/pme/5-dicas-essenciais-para-definir-o-publico-alvo-do-seu-negocio/)
-> - [Público-alvo: o que é, tipos, como definir seu público e exemplos](https://klickpages.com.br/blog/publico-alvo-o-que-e/)
-> - [Qual a diferença entre público-alvo e persona?](https://rockcontent.com/blog/diferenca-publico-alvo-e-persona/)
