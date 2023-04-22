@@ -1,7 +1,5 @@
 # Especificações do Projeto
 
-<span style="color:red">Pré-requisitos: <a href="1-Documentação de Contexto.md"> Documentação de Contexto</a></span>
-
 O problema a ser solucionado por este projeto, bem como os aspectos que deveriam ser abrangidos por ele foram estabelecidos a partir de um diálogo com especialistas em cirurgia vascular e áreas conexas nas quais a aplicação a ser desenvolvida pretende ser útil. Ainda como fruto dessa interlocução, foram levantados artigos de referência médica que devem garantir o manejo adequado dos parâmetros a serem utilizados pela aplicação. O perfil de usuário, suas necessidades e expectativas foram consolidadas sob a forma de personas e histórias de usuários conforme veremos a seguir.
 
 
