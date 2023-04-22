@@ -1,7 +1,7 @@
 
 # Metodologia
 
-<span style="color:red">Pré-requisitos: <a href="2-Especificação do Projeto.md"> Documentação de Especificação</a></span>
+<span style="color:red">Pré-requisitos: <a href="2-Especificação do Projeto.md"> [Documentação de Especificação](https://drive.google.com/drive/u/0/folders/1wLhXlA6L39_dMJl_IFgtvwqa_UGSl1Nm)</a>
 
 Nessa seção iremos destacar o ferramental escolhido para execução desse projeto, bem como o método que utilizaremos.
 
