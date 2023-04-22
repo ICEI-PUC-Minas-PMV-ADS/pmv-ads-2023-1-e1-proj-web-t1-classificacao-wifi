@@ -32,19 +32,11 @@ A partir da compreensão do dia a dia das personas identificadas para o projeto,
 
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
 |--------------------|------------------------------------|----------------------------------------|
-|Mariana silva       | Ser apresentada às perguntas que   | Para evitar que algum critério         |
-                     | devo responder no sistema wifi.    | necessário seja deixado de lado.       |
-                     | Não esquecer de fazê-las           |
-|Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
-
-Apresente aqui as histórias de usuário que são relevantes para o projeto de sua solução. As Histórias de Usuário consistem em uma ferramenta poderosa para a compreensão e elicitação dos requisitos funcionais e não funcionais da sua aplicação. Se possível, agrupe as histórias de usuário por contexto, para facilitar consultas recorrentes à essa parte do documento.
-
-> **Links Úteis**:
-> - [Histórias de usuários com exemplos e template](https://www.atlassian.com/br/agile/project-management/user-stories)
-> - [Como escrever boas histórias de usuário (User Stories)](https://medium.com/vertice/como-escrever-boas-users-stories-hist%C3%B3rias-de-usu%C3%A1rios-b29c75043fac)
-> - [User Stories: requisitos que humanos entendem](https://www.luiztools.com.br/post/user-stories-descricao-de-requisitos-que-humanos-entendem/)
-> - [Histórias de Usuários: mais exemplos](https://www.reqview.com/doc/user-stories-example.html)
-> - [9 Common User Story Mistakes](https://airfocus.com/blog/user-story-mistakes/)
+|Mariana silva       |Ser apresentada às perguntas que devo responder no sistema wifi.  |Para evitar que algum critério necessário seja deixado de lado.|
+|Luiza oliveira      |Cadastro médico para o histórico de avaliações dos pacientes.               |Possibilitar um registro e histórico de atendimento. |
+|Sander batista      |Agilizar o resultado do sistema wifi.|A velocidade no diagnóstico pode auxiliar o tratamento e conter danos à saúde do paciente. |
+|Luiza oliveira      |Aprender a utilizar o método wifi com segurança.|Para não ocasionar erro médico.|
+|Mariana silva       |Possibilidade de realizar anotações sobre particularidades de cada caso.|Para incluir informações relevantes ao diagnóstico, que extrapolem o método|
 
 ## Requisitos
 
