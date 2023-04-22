@@ -32,7 +32,7 @@ etiquetas:
 | ------------- | ------------- | ------------- |
 | Repositório de código fonte  | [Github](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t1-classificacao-wifi)  | https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t1-classificacao-wifi |
 | Documentos do projeto  | [Google Drive](https://drive.google.com/drive/u/0/folders/1wLhXlA6L39_dMJl_IFgtvwqa_UGSl1Nm)  | https://drive.google.com/drive/u/0/folders/1wLhXlA6L39_dMJl_IFgtvwqa_UGSl1Nm |
-| Projeto de Interface e  Wireframes  | [Canva](https://git-scm.com/)  | ------------- |
+| Projeto de Interface e  Wireframes  | [Canva](https://www.canva.com/design/DAFgw82zoyo/qi909z2SA_Him5aF0CR0NQ/view?utm_content=DAFgw82zoyo&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink)  | https://www.canva.com/design/DAFgw82zoyo/qi909z2SA_Him5aF0CR0NQ/view?utm_content=DAFgw82zoyo&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink |
 | Gerenciamento do Projeto  | [Trello](https://trello.com/b/8XI6sWXo)  | https://trello.com/b/8XI6sWXo |
 
 
