@@ -13,36 +13,25 @@ Sander Batista é um médico com 41 anos de idade, cuja especialidade abrange or
 
 Luiza Oliveira é uma médica de 26 anos de idade, que atualmente se dedica à residência em cirurgia vascular. Luiza está empenhada em aprimorar seus conhecimentos em cirurgia vascular, o que a torna uma profissional de destaque na área da saúde. 
 
-
-Enumere e detalhe as personas da sua solução. Para tanto, baseie-se tanto nos documentos disponibilizados na disciplina e/ou nos seguintes links:
-
-> **Links Úteis**:
-> - [Rock Content](https://rockcontent.com/blog/personas/)
-> - [Hotmart](https://blog.hotmart.com/pt-br/como-criar-persona-negocio/)
-> - [O que é persona?](https://resultadosdigitais.com.br/blog/persona-o-que-e/)
-> - [Persona x Público-alvo](https://flammo.com.br/blog/persona-e-publico-alvo-qual-a-diferenca/)
-> - [Mapa de Empatia](https://resultadosdigitais.com.br/blog/mapa-da-empatia/)
-> - [Mapa de Stalkeholders](https://www.racecomunicacao.com.br/blog/como-fazer-o-mapeamento-de-stakeholders/)
->
-Lembre-se que você deve ser enumerar e descrever precisamente e personalizada todos os clientes ideais que sua solução almeja.
-
 ## Histórias de Usuários
 
 A partir da compreensão do dia a dia das personas identificadas para o projeto, foram registradas as seguintes histórias de usuários.
 
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
 |--------------------|------------------------------------|----------------------------------------|
-|Mariana silva       |Ser apresentada às perguntas que devo responder no sistema wifi.  |Para evitar que algum critério necessário seja deixado de lado.|
-|Luiza oliveira      |Cadastro médico para o histórico de avaliações dos pacientes.               |Possibilitar um registro e histórico de atendimento. |
-|Sander batista      |Agilizar o resultado do sistema wifi.|A velocidade no diagnóstico pode auxiliar o tratamento e conter danos à saúde do paciente. |
-|Luiza oliveira      |Aprender a utilizar o método wifi com segurança.|Para não ocasionar erro médico.|
-|Mariana silva       |Possibilidade de realizar anotações sobre particularidades de cada caso.|Para incluir informações relevantes ao diagnóstico, que extrapolem o método|
+|Mariana Silva       |Ser apresentada às perguntas que devo responder no sistema wifi.  |Para evitar que algum critério necessário seja deixado de lado.|
+|Luiza Oliveira      |Cadastro médico para o histórico de avaliações dos pacientes.               |Possibilitar um registro e histórico de atendimento. |
+|Sander Batista      |Agilizar o resultado do sistema wifi.|A velocidade no diagnóstico pode auxiliar o tratamento e conter danos à saúde do paciente. |
+|Luiza Oliveira      |Aprender a utilizar o método wifi com segurança.|Para não ocasionar erro médico.|
+|Mariana Silva       |Possibilidade de realizar anotações sobre particularidades de cada caso.|Para incluir informações relevantes ao diagnóstico, que extrapolem o método|
 
 ## Requisitos
 
 As tabelas que se seguem apresentam os requisitos funcionais e não funcionais que detalham o escopo do projeto.
 
 ### Requisitos Funcionais
+
+A tabela a seguir apresenta os requisitos do projeto, identificando a prioridade em que os mesmos devem ser entregues.
 
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
