@@ -28,6 +28,12 @@ etiquetas:
 
 ## Relação de Ambientes de Trabalho
 
+| Ambiente  | Plataforma | Link de acesso |
+| ------------- | ------------- | ------------- |
+| Repositório de código fonte  | [Github](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t1-classificacao-wifi)  | https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t1-classificacao-wifi |
+| Documentos do projeto  | [Google Drive](https://drive.google.com/drive/u/0/folders/1wLhXlA6L39_dMJl_IFgtvwqa_UGSl1Nm)  | https://drive.google.com/drive/u/0/folders/1wLhXlA6L39_dMJl_IFgtvwqa_UGSl1Nm |
+| Projeto de Interface e  Wireframes  | [Canva](https://git-scm.com/)  | ------------- |
+| Gerenciamento do Projeto  | [Trello](https://trello.com/b/8XI6sWXo)  | https://trello.com/b/8XI6sWXo |
 
 
 ## Gerenciamento de Projeto
