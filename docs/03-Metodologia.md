@@ -40,7 +40,18 @@ etiquetas:
 
 ### Divisão de Papéis
 
-Apresente a divisão de papéis entre os membros do grupo.
+A equipe utiliza a metodologia ágil Scrum como base para definição do processo de desenvolvimento.
+
+A equipe está organizada da seguinte maneira:
+# Scrum Master: João Paulo
+# Product Owner: Pedro Mellucci
+# Equipe de Desenvolvimento:
+## Bruno Lima
+## Luilson
+## Vanderson
+# Equipe de Design:
+## Gabriel Muzzi
+
 
 > **Links Úteis**:
 > - [11 Passos Essenciais para Implantar Scrum no seu 
