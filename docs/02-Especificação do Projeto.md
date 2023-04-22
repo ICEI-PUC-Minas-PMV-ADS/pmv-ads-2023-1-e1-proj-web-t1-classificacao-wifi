@@ -7,7 +7,12 @@ O problema a ser solucionado por este projeto, bem como os aspectos que deveriam
 
 ## Personas
 
-Pedro Paulo tem 26 anos, é arquiteto recém-formado e autônomo. Pensa em se desenvolver profissionalmente através de um mestrado fora do país, pois adora viajar, é solteiro e sempre quis fazer um intercâmbio. Está buscando uma agência que o ajude a encontrar universidades na Europa que aceitem alunos estrangeiros.
+Mariana Silva, médica e coordenadora da equipe de amputações do Hospital João XXIII em Belo Horizonte, possui 37 anos de idade e atua como clínica geral, além de possuir especialização em cirurgia vascular.
+
+Sander Batista é um médico com 41 anos de idade, cuja especialidade abrange ortopedia e cirurgia geral. Com uma vasta experiência em ambas as áreas. Com sua ampla expertise, Sander é um colaborador valioso em projetos relacionados à saúde e medicina.
+
+Luiza Oliveira é uma médica de 26 anos de idade, que atualmente se dedica à residência em cirurgia vascular. Luiza está empenhada em aprimorar seus conhecimentos em cirurgia vascular, o que a torna uma profissional de destaque na área da saúde. 
+
 
 Enumere e detalhe as personas da sua solução. Para tanto, baseie-se tanto nos documentos disponibilizados na disciplina e/ou nos seguintes links:
 
