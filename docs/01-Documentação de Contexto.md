@@ -17,6 +17,7 @@ Fornecer uma ferramenta funcional e acessível para avaliar a gravidade clínica
 ## Justificativa
 
 Um estudo europeu acerca do perfil dos pacientes atendidos pelo departamento de emergência vascular em hospitais da grécia ao longo de um período de 2 anos  apontou que aproximadamente 40% dos enfermos apresentavam um quadro de infecção de extremidades inferiores ou úlceras crônicas em pé diabético (KOTSIKORIS et al, 2011). Já um outro artigo (AL-THANI et al, 2018), publicado pela revista médica BMJ open, revela que 65% dos casos de amputação se dão nos membros inferiores, sendo que 75% desses casos estão relacionados a doença do pé diabético. Ainda conforme o mesmo artigo, associado a esse grande número de casos, o custo relativo ao tratamento de ulcerações de pés diabéticos representa mais de 80% do valor gasto estimado em casos envolvendo amputações. 
+
 Diante deste cenário, a ferramenta pode ajudar a melhorar a precisão na utilização do método wifi para o diagnóstico e tratamento dos membros inferiores ameaçados, reduzindo a morbidade e a mortalidade associadas à doença. Além disso, aumentar a eficiência do processo de coleta e classificação de dados pelos profissionais de saúde, uma vez que a manipulação das informações de forma dinâmica, organizada e precisa, pode minimizar a possibilidade de erro humano durante o tratamento desses dados. Com isso, é possível proporcionar um cuidado adequado e personalizado para um maior número de pacientes.
 
 ## Público-Alvo
