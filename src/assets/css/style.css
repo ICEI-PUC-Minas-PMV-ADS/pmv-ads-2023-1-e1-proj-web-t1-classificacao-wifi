@@ -106,3 +106,139 @@ header {
     color: #FFF;
 
 }
+
+.banner{
+
+    height:calc(100vh - 100px);
+
+    background-color: red;
+
+    background-image: url(../image/img_hospital_banner.jpg);
+
+    background-size: cover;
+
+    background-position: center;
+
+    overflow: hidden;
+
+}
+
+.banner .sliders {
+
+    height: 100%;
+
+    width: 200vw;
+
+}
+
+.banner .slide{
+
+    height: 100%;
+
+    width: 100vw;
+
+    display: inline-block;
+
+    background-color: rgba(0, 0, 0, 0.7);
+
+}
+
+.banner .slide_area{
+
+    display: flex;
+
+    flex-direction: column;
+
+    height: 100%;
+
+    text-align: center;
+
+    justify-content: center;
+
+    align-items: center;
+
+    color: #FFF;
+
+}
+
+.banner h1{
+
+    text-transform: uppercase;
+
+    font-weight: bold;
+
+    font-size: 50px;
+
+}
+
+.banner h1 span{
+
+    color: #aae3bb;
+
+}
+
+.button{
+
+    display: inline-block;
+
+    background-color: #215A60;
+
+    color: #FFF;
+
+    text-transform: uppercase;
+
+    font-size: 12px;
+
+    font-weight: 600;
+
+    margin-top: 30px;
+
+    text-decoration: none;
+
+    padding: 10px 30px;
+
+    border-radius: 20px;
+
+}
+
+.banner .slidersPointers{
+
+    width: 100vw;
+
+    height: 20px;
+
+    position: absolute;
+
+    margin-top: -100px;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+}
+
+.banner .pointer{
+
+    width: 15px;
+
+    height: 15px;
+
+    border: 2px solid #aae3bb;
+
+    border-radius: 8px;
+
+    margin-left: 5px;
+
+    margin-right: 5px;
+
+    cursor: pointer;
+
+}
+
+.banner .pointer.active{
+
+    background-color: #aae3bb;
+
+}
