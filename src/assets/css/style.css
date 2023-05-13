@@ -65,3 +65,44 @@ header {
     border-bottom: 3px solid #aae3bb;
     color: #ccc;
 }
+/*Estrutura padrão*/
+
+.default{
+    width: 100vw;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.default .section_title,
+.default .section_desc{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.default .section_title{
+    font-size: 20px;
+}
+.default .section_desc{
+    font-size: 12px;
+    color: #acacac;
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+.default .section_body{
+    max-width: 1140px;
+    margin: auto;
+}
+.default.light{
+    background-color: #F7F7F7;
+}
+.default.light .section_title,
+.default.light .section_body{
+    color: #000;
+}
+.default.dark{
+    background-color: #000;
+}
+.default.dark .section_title,
+.default.dark .section_body{
+    color: #FFF;
+
+}
