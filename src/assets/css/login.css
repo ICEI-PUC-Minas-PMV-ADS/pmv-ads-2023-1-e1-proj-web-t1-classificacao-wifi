@@ -67,6 +67,9 @@ header {
     border-bottom: 3px solid #aae3bb;
     color: #ccc;
 }
+main{
+    height: calc(100vh - 185px);
+}
 
 /*Estrutura padrão*/
 
