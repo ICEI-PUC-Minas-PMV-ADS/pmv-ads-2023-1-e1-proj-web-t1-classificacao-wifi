@@ -1,0 +1,187 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+body {
+    font-family:'Montserrat', Arial, Helvetica, sans-serif;
+    font-size:13px;
+    overflow-x:hidden;
+}
+
+/*Cabeçalho do site*/
+
+header {
+    height: 100px;
+    background-color: #215A60;
+    color: #FFF;
+}
+.header {
+    Max-width: 1140px;
+    height: 100px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+
+/*logo*/
+
+.header_logo img{
+    width: 100px;
+    height: 70px;
+    padding: 10px;
+}
+
+/*menu*/
+
+.header_menu{
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.header_menu ul,
+.header_menu li{
+    list-style: none;
+}
+
+.header_menu ul{
+    display: flex;
+}
+
+.header_menu li a{
+    color: #FFF;
+    text-transform: uppercase;
+    font-weight: 600;
+    text-decoration: none;
+    padding-left: 10px; 
+    padding-right: 10px;
+    display: flex;
+    align-items: center;
+    height: 100px;
+    border-bottom: 3px solid #215A60;
+}
+
+.header_menu li a:hover,
+.header_menu .activ a{
+    border-bottom: 3px solid #aae3bb;
+    color: #ccc;
+}
+
+/*Estrutura padrão*/
+
+.default{
+    width: 100vw;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.default .section_title,
+.default .section_desc{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.default .section_title{
+    font-size: 20px;
+}
+.default .section_desc{
+    font-size: 12px;
+    color: #acacac;
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+.default .section_body{
+    max-width: 1140px;
+    margin: auto;
+}
+.default.light{
+    background-color: #F7F7F7;
+}
+.default.light .section_title,
+.default.light .section_body{
+    color: #000;
+}
+.default.dark{
+    background-color: #000;
+}
+.default.dark .section_title,
+.default.dark .section_body{
+    color: #FFF;
+
+}
+
+/*login*/
+.bg_login{
+    background-image: url('/assets/image/img_login.jpg');
+    background-size: cover;
+    height: calc(100vh - 155px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+/*area direita do login*/
+.section-body{
+    width: 350px;
+    height: 350px;
+    border-radius: 20px;
+    background-color: #edf1f2;
+    padding: 50px;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0,0,0,0.3);
+}
+
+.section-body label{
+    display: block;
+    margin-bottom: 20px;
+    
+}
+.section-body  a{
+    text-decoration: none;
+    color: #215A60;
+    font-weight: 600;
+}
+
+.section-body  input{
+    border: 1px solid #999;
+    border-radius: 5px;
+    padding: 8px;
+    font-size: 14px;
+    width: 100%;
+    outline: 0;
+}
+.section-body .termo_login a{
+   color: #000;
+   font-weight: normal;
+}
+.faca_cadastro{
+    text-align: center;
+}
+.esqueci_senha{
+    text-align: center;
+}
+/*footer*/
+
+footer {
+    display: flex;
+    background-color:#000;
+    padding:20px;
+    width: 100vw;
+    
+}
+.footer_area {
+    max-width:1140px;
+    margin:auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer_area P{
+    color:#999;
+    line-height:10px;
+    font-size:11px;
+    padding:0 5px 5px 5px;
+}
