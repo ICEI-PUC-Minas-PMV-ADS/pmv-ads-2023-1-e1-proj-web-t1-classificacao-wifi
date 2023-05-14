@@ -104,198 +104,123 @@ header {
 .default.dark .section_title,
 .default.dark .section_body{
     color: #FFF;
-
 }
-
 .banner{
-
     height:calc(100vh - 100px);
-
     background-color: red;
-
     background-image: url(../image/img_hospital_banner.jpg);
-
     background-size: cover;
-
     background-position: center;
-
     overflow: hidden;
-
 }
-
 .banner .sliders {
-
     height: 100%;
-
     width: 200vw;
-
 }
-
 .banner .slide{
-
     height: 100%;
-
     width: 100vw;
-
     display: inline-block;
-
     background-color: rgba(0, 0, 0, 0.7);
-
 }
-
 .banner .slide_area{
-
     display: flex;
-
     flex-direction: column;
-
     height: 100%;
-
     text-align: center;
-
     justify-content: center;
-
     align-items: center;
-
     color: #FFF;
-
 }
-
 .banner h1{
-
     text-transform: uppercase;
-
     font-weight: bold;
-
     font-size: 50px;
-
 }
-
 .banner h1 span{
-
     color: #aae3bb;
-
 }
-
 .button{
-
     display: inline-block;
-
     background-color: #215A60;
-
     color: #FFF;
-
     text-transform: uppercase;
-
     font-size: 12px;
-
     font-weight: 600;
-
     margin-top: 30px;
-
     text-decoration: none;
-
     padding: 10px 30px;
-
     border-radius: 20px;
-
 }
 
 .banner .slidersPointers{
-
     width: 100vw;
-
     height: 20px;
-
     position: absolute;
-
     margin-top: -100px;
-
     display: flex;
-
     justify-content: center;
-
     align-items: center;
-
 }
-
 .banner .pointer{
-
     width: 15px;
-
     height: 15px;
-
     border: 2px solid #aae3bb;
-
     border-radius: 8px;
-
     margin-left: 5px;
-
     margin-right: 5px;
-
     cursor: pointer;
-
 }
-
 .banner .pointer.active{
-
     background-color: #aae3bb;
-
 }
 /*áreas específicas*/
 
-
-
-
 /*wifi*/
-
 .section_wifi{
-
     display: flex;
-
 }
-
-
-
-
 .section_wifi_left{
-
     flex: 1;
-
-   
-
 }
-
 .section_wifi_left p{
-
     font-size: 14px;
-
     line-height: 25px;
-
     text-align: justify;
-
 }
-
 .section_wifi_left a.button{
-
     margin-left: 35%;
-
     margin-right: 35%;
-
 }
-
 .section_wifi_right{
-
     width: 520px;
-
     text-align: center;
-
+}
+.section_wifi_right img{
+    width: 480px;
+    box-shadow: 0px 5px 10px #333;
+}
+/*serviços*/
+.section_services{
+    display: flex;
+}
+.section_service{
+    flex: 1;
+    text-align: center;
+    border-right: 1px solid #333;
+    padding: 15px;
+}
+.section_service:first-child{
+    border-left: 1px solid #333;
+}
+.section_service h4{
+    margin-top: 20px;
+    text-transform: uppercase;
+    font-size: 17px;
 }
 
-.section_wifi_right img{
-
-    width: 480px;
-
-    box-shadow: 0px 5px 10px #333;
-
+.section_service p{
+    margin-top: 10px;
+    font-size: 13px;
+    color: #999;
 }
