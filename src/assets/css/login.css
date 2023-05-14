@@ -112,7 +112,7 @@ header {
 
 /*login*/
 .bg_login{
-    background-image: url('/assets/image/img_login.jpg');
+    background-image: url(../image/img_login.jpg);
     background-size: cover;
     height: calc(100vh - 155px);
     display: flex;
