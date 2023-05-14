@@ -362,3 +362,30 @@ header {
 .section_team_social a:hover{
     background-color: #aae3bb;
 }
+/*contato*/
+.section_contact {
+    max-width:450px;
+    margin:auto;
+    text-align:center;
+}
+.section_contact input[type=text],
+.section_contact textarea {
+    display:block;
+    width:100%;
+    height:40px;
+    border:0;
+    background:transparent;
+    border-bottom:1px solid #CCC;
+    outline:0;
+    margin-top:10px;
+}
+.section_contact textarea {
+    height:100px;
+    resize:none;
+}
+.section_contact_split {
+    display:flex;
+}
+.section_contact_split input:first-child {
+    margin-right:20px;
+}
