@@ -231,6 +231,9 @@ header {
     cursor: pointer;
 }
 
+main {
+    height: calc(100vh - 175px);
+}
 
 /*footer*/
 
