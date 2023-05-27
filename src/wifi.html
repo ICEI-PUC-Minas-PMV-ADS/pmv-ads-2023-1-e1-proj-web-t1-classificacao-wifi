@@ -36,34 +36,68 @@
                 <p>A Classificação WIFI é um sistema desenvolvido pela Society for Vascular Surgery para prever o risco de amputação em um ano e o potencial benefício do tratamento de revascularização. Esse sistema leva em consideração três principais parâmetros que colocam um membro em risco de amputação: ferida, isquemia e infecção do pé. A classificação permite uma avaliação mais precisa da gravidade da doença e ajuda os médicos a determinar o tratamento mais adequado.</p>
             </div>
         </div>
-        <div id="wifi">
-            <div class="container--panel-wifi">
+        <div class="container_area">
+            <div class="container">
+            <h2>Estimativa do <br>Risco de amputação em 1 ano</h2>
+            <label for="W">Ferida (W):</label>
+            <select id="W">
+              <option value="0">Sem úlcera ou gangrena (dor isquêmica em repouso)</option>
+              <option value="1">Úlcera pequena ou superficial em perna ou pé, sem gangrena (ADS ou CP)</option>
+              <option value="2">Úlcera profunda com exposição de osso, articulação ou tendão ± gangrena limitada a pododáctilos (MAD ou TMA padrão ± CP)</option>
+              <option value="3">Úlcera profunda e extensa envolvendo antepé e/ou mediopé ± envolvimento do calcâneo ± gangrena extensa (RC do pé ou TMA não tradicional)</option>
+            </select>
             
-                <div class="panel2">
-                    <h3><strong>W: Ferida</strong></h3>
-                    <img src="assets/image/seta-para-baixo.png" alt="seta_pbaixo">
-                </div>
+            <label for="I">Isquemia (I):</label>
+            <select id="I">
+              <option value="0">ITB: ≥ 0,80, PAS do tornozelo > 100 mmHg e TP, TcPO2 ≥ 60 mmHg</option>
+              <option value="1">ITB: 0,6-0,79, PAS do tornozelo 70-100 mmHg e TP, TcPO2 40-59 mmHg</option>
+              <option value="2">ITB: 0,4-0,59, PAS do tornozelo 50-70 mmHg e TP, TcPO2 30-39 mmHg</option>
+              <option value="3">ITB: ≤ 0.39, PAS do tornozelo < 50 mmHg e TP, TcPO2 < 30 mmHg</option>
+            </select>
             
-            </div>
-    
-            <div class="container--panel-wifi">
-                <div class="panel2">
-                    <h3><strong>I: Isquemia</strong></h3>
-                    <img src="assets/image/seta-para-baixo.png" alt="seta_pbaixo">
-                </div>
-            </div>
-    
-            <div class="container--panel-wifi">
-                <div class="panel2">
-                    <h3><strong>Fi: Infecção</strong></h3>
-                    <img src="assets/image/seta-para-baixo.png" alt="seta_pbaixo">
-                </div>
-            </div>
-        
-        </div>
-        
-        </div>  
+            <label for="fI">Infecção do pé (fI):</label>
+            <select id="fI">
+              <option value="0">Não infectado</option>
+              <option value="1">Infecção local leve, envolvendo apenas pele e subcutâneo, eritema > 0,5 e ≤ 2 cm</option>
+              <option value="2">Infecção local moderada, com eritema > 2 cm ou envolvendo estruturas mais profundas</option>
+              <option value="3">Infecção local grave com os sinais de SIRS</option>
+            </select>
             
+            <div class="button"><button onclick="calcularClassificacao()">Calcular</button></div>
+            
+            <p id="resultado"></p>
+          </div>
+          <div class="container">
+            <h2>Estimativa do <br>Benefício de revascularização</h2>
+            <label for="W">Ferida (W):</label>
+            <select id="W">
+              <option value="0">Sem úlcera ou gangrena (dor isquêmica em repouso)</option>
+              <option value="1">Úlcera pequena ou superficial em perna ou pé, sem gangrena (ADS ou CP)</option>
+              <option value="2">Úlcera profunda com exposição de osso, articulação ou tendão ± gangrena limitada a pododáctilos (MAD ou TMA padrão ± CP)</option>
+              <option value="3">Úlcera profunda e extensa envolvendo antepé e/ou mediopé ± envolvimento do calcâneo ± gangrena extensa (RC do pé ou TMA não tradicional)</option>
+            </select>
+            
+            <label for="I">Isquemia (I):</label>
+            <select id="I">
+              <option value="0">ITB: ≥ 0,80, PAS do tornozelo > 100 mmHg e TP, TcPO2 ≥ 60 mmHg</option>
+              <option value="1">ITB: 0,6-0,79, PAS do tornozelo 70-100 mmHg e TP, TcPO2 40-59 mmHg</option>
+              <option value="2">ITB: 0,4-0,59, PAS do tornozelo 50-70 mmHg e TP, TcPO2 30-39 mmHg</option>
+              <option value="3">ITB: ≤ 0.39, PAS do tornozelo < 50 mmHg e TP, TcPO2 < 30 mmHg</option>
+            </select>
+            
+            <label for="fI">Infecção do pé (fI):</label>
+            <select id="fI">
+              <option value="0">Não infectado</option>
+              <option value="1">Infecção local leve, envolvendo apenas pele e subcutâneo, eritema > 0,5 e ≤ 2 cm</option>
+              <option value="2">Infecção local moderada, com eritema > 2 cm ou envolvendo estruturas mais profundas</option>
+              <option value="3">Infecção local grave com os sinais de SIRS</option>
+            </select>
+            
+            <div class="button"><button onclick="calcularClassificacao()">Calcular</button></div>
+            
+            <p id="resultado"></p>
+          </div>
+        </div>    
     </section>
     </main>
     <footer>

@@ -149,12 +149,12 @@ header {
 
 .container--panel-descricao{
     width: 1140px;
-    height: 290px;
+    height: 220px;
     background-color: #FFF;
     display: flex;
     margin-right: auto;
     margin-left: auto;
-    margin-top: 30px;
+    margin-top: 20px;
     background-color: #FFF;
     border-radius: 2px;
     border: 0;
@@ -165,22 +165,17 @@ header {
     width: 1140px;
     background-color: #ececec;
     text-align: center;
-    align-items: center;
-    justify-content: center;
 }
 
 .panel1 h3 {
     color: #215A60;
-}
-
-.panel2 h3{
-    color: #215A60;
+    margin-top: 10px;
 }
 
 .panel1 p{
     font-size: 18px;
     line-height: 30px;
-    margin-top: 60px;
+    margin-top: 30px;
     margin-left: 60px;
     margin-right: 60px;
     text-align: justify;
@@ -196,7 +191,7 @@ header {
 
 .container--panel-wifi{
     width: 360px;
-    height: 200px;
+    height: 360px;
     margin-bottom: 10px;
     margin-right: 20px;
     margin-left: 5px;
@@ -210,30 +205,67 @@ header {
     box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12), 0 1px 6px rgba(0, 0, 0, 0.12);
 }
 
-.panel2 {
-    height: 60px;
+/*área calc*/
+.container_area{
     width: 1140px;
-    background-color: #ececec;
-    text-align: center;
+    height: 300px;
     display: flex;
     align-items: center;
-}
-.panel2 h3{
-    margin-left: 110px;
-}
-
-.panel2 img{
-    width: 25px;
-    height: 25px;
-    margin-right: 120px;
-    display: flex;
+    margin: auto;
     justify-content: space-between;
+    
+}
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 10px;
+    border-radius: 2px;
+    border: 0;
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12), 0 1px 6px rgba(0, 0, 0, 0.12);
+    margin-top: 20px;
+    background-color: #ececec;
+  }
+  
+  h2 {
+    text-align: center;
+    color: #215a60;
+    font-size: 16px;
+    padding: 10px;
+    margin-top: 5px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  select {
+    width: 100%;
+    padding: 5px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+  }
+  
+  button {
+    margin-top: 10px;
+    padding: 8px 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
     cursor: pointer;
-}
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #215A60;
+  }
+  .button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 
-main {
-    height: calc(100vh - 185px);
-}
+
 
 /*footer*/
 
@@ -242,7 +274,7 @@ footer {
     background-color:#000;
     padding:20px;
     width: 100vw;
-    
+    height: 55px;   
 }
 .footer_area {
     max-width:1140px;
@@ -256,4 +288,7 @@ footer {
     line-height:10px;
     font-size:11px;
     padding:0 5px 5px 5px;
+}
+main {
+    height: calc(100vh - 175px);
 }
