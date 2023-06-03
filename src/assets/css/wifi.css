@@ -250,12 +250,14 @@ header {
 
   p#resultadoRA {
     font-size: x-large;
+    font-weight: bold;
     padding: 10px 0px;
     text-align: center;
   }
 
   p#resultadoRV {
     font-size: x-large;
+    font-weight: bold;
     padding: 10px 0px;
     text-align: center;
   }
