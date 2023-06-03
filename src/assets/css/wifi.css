@@ -217,7 +217,7 @@ header {
 }
 .container {
     max-width: 400px;
-    margin: 0 auto;
+    margin: auto;
     padding: 10px;
     border-radius: 2px;
     border: 0;
@@ -225,6 +225,52 @@ header {
     margin-top: 20px;
     background-color: #ececec;
   }
+
+  .results {
+    max-width: 400px;
+    height: 306px;
+    display: inline-block;
+    margin: auto;
+    padding: 10px;
+    border-radius: 2px;
+    border: 0;
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12), 0 1px 6px rgba(0, 0, 0, 0.12);
+    margin-top: 20px;
+    background-color: #ececec;
+  }
+
+  .result-block {
+    max-width: 400px;
+    height: 80px;
+    padding: 10px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    align-content:space-between;
+    background-color: #f8f7f7;    
+  }
+
+  p#resultadoRA {
+    font-size: x-large;
+    padding: 10px 0px;
+    text-align: center;
+  }
+
+  p#resultadoRV {
+    font-size: x-large;
+    padding: 10px 0px;
+    text-align: center;
+  }
+
+  /* #containerRA {
+    max-width: 400px;
+    display: inline-block;
+    margin: auto;
+    padding: 10px;
+    border-radius: 2px;
+    border: 0;
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12), 0 1px 6px rgba(0, 0, 0, 0.12);
+    margin-top: 20px;
+    background-color: #ececec;
+  } */
   
   h2 {
     text-align: center;
@@ -234,6 +280,10 @@ header {
     margin-top: 5px;
   }
   
+  h3 {
+    text-align: center;
+  }
+
   label {
     display: block;
     margin-bottom: 5px;
