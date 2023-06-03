@@ -496,7 +496,7 @@ footer {
 /*Section team*/
 
 .section_team{
-    max-width: 580px !important;
+    max-width: 580px;
 }
 
 }
@@ -579,7 +579,7 @@ footer {
 /*Section team*/
 
 .section_team{
-    max-width: 280px !important;
+    max-width: 280px;
 }
 
 /*Section contato*/
