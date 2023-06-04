@@ -344,3 +344,12 @@ footer {
 main {
     height: calc(100vh - 175px);
 }
+
+/*Responsividade da página WIfI*/
+
+/*Tablet*/
+
+@media (min-width: 450px) and (max-width: 800px) {
+
+    
+}

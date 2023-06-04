@@ -64,7 +64,7 @@ function calcularClassificacao() {
         resultadoRV = "Alto";
       }
     } else if (I === 2) {
-      if ((W = 0 && (fI = 0 || 1))) {
+      if ((W === 0 && (fI === 0 || 1))) {
         resultadoRV = "Baixo";
       } else if ((W === 0 && (fI === 2||3)) || (W === 1 && fI === 0)) {
         resultadoRV = "Moderado";
