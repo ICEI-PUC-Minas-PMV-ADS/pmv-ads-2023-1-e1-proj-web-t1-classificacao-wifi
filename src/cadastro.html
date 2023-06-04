@@ -38,26 +38,22 @@
             </div>
             <div class="cadastro_campo_direito">
                 <h1>Crie uma conta</h1>
-                <form method="post">
+                <form method="post" class="validador">
                     <label>
                         Nome: <br>
-                        <input type="text" name="nome" id="">
+                        <input type="text" name="nome" id="" action="cadastro.php" target="_blank" data-regras="required|min=2">
                     </label>
                     <label>
                         CRM: <br>
                         <input type="text" name="CRM" id="">
                     </label>
                     <label>
-                        Endereço: <br>
-                        <input type="text" name="e-mail" id="">
-                    </label>
-                    <label>
                         E-mail: <br>
-                        <input type="text" name="e-mail" id="">
+                        <input type="text" name="e-mail" id="" data-regras="required|email">
                     </label>
                     <label>
                         Senha: <br>
-                        <input type="text" name="senha" id="">
+                        <input type="text" name="senha" id="" data-regras="required|min=4">
                     </label>
                     <label>
                         <input type="submit" value="Cadastrar">

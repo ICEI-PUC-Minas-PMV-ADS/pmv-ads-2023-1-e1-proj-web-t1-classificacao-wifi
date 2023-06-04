@@ -253,3 +253,13 @@ footer {
     
 }
 }
+
+/* Estilo para Erro*/
+
+.error {
+    font-size: 12px;
+    background-color: #FF0000;
+    color: #FFF;
+    padding: 4px;
+    border-radius: 4px;
+}
