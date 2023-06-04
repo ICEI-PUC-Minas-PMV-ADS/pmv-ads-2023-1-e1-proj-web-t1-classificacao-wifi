@@ -132,7 +132,7 @@ main{
 /*area direita do login*/
 .section-body{
     width: 350px;
-    height: 350px;
+    height: 390px;
     border-radius: 20px;
     background-color: #edf1f2;
     padding: 50px;
@@ -278,6 +278,9 @@ footer {
 .bg_login{
     padding-bottom: 30px;
 }
+.section_title{
+    padding-top: 40px;
+}
 
 /*Rodapé*/
 .footer_area P{
@@ -285,4 +288,15 @@ footer {
     font-size:7px;
     
 }
+}
+
+
+/* Estilo para Erro*/
+
+.error {
+    font-size: 12px;
+    background-color: #FF0000;
+    color: #FFF;
+    padding: 4px;
+    border-radius: 4px;
 }

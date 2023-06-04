@@ -37,14 +37,14 @@
         <div class="section_title">Login</div>
         <div class="section_desc">Digite os seus dados para logar</div>
         <div class="section-body">
-            <form method="post">
+            <form method="post" class="validador">
                 <label>
                     E-mail: <br>
-                    <input type="text" name="e-mail" id="">
+                    <input type="text" name="e-mail" id="" data-regras="required|email">
                 </label>
                 <label>
                     Senha: <br>
-                    <input type="text" name="senha" id="">
+                    <input type="text" name="senha" id="" data-regras="required|min=4">
                 </label>
                 <label>
                     <input type="submit" value="Entrar">
