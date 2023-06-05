@@ -56,11 +56,11 @@ function calcularClassificacao() {
      else if (I === 1) {
       if (W === 0 && fI === 0) {
         resultadoRV = "Muito baixo";
-      } else if ((W === 0 && (fI === 1 || 2)) || W === 1 && fI === 0) {
+      } else if ((W === 0 && (fI === 1 || 2)) || (W === 1 && fI === 0)) {
         resultadoRV = "Baixo";
       } else if ((W === 0 && fI === 3) || (W === 1 && (fI === 1 || 2 || 3)) || (W === 2 && (fI === 0 || 1)) || (W === 3 && (fI === 0 || 1 || 2))) { 
         resultadoRV = "Moderado";
-      } else {
+      } else if ((W === 2 && fI === 2) || (W === 3 && fI === 3)){
         resultadoRV = "Alto";
       }
     } else if (I === 2) {
