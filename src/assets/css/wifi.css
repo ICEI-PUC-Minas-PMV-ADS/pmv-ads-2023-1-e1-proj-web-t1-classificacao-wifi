@@ -148,8 +148,10 @@ header {
 }
 
 .container--panel-descricao{
-    width: 1140px;
-    height: 220px;
+
+    flex-direction: column;
+    width: 90vw;
+    height: fit-content;
     background-color: #FFF;
     display: flex;
     margin-right: auto;
@@ -162,7 +164,7 @@ header {
 }
 .panel1 {
     height: 40px;
-    width: 1140px;
+    width: inherit;
     background-color: #ececec;
     text-align: center;
 }
@@ -172,6 +174,15 @@ header {
     margin-top: 10px;
 }
 
+#box-cleito {
+    font-size: 18px;
+    line-height: 30px;
+    margin-top: 30px;
+    margin-left: 60px;
+    margin-right: 60px;
+    text-align: justify;
+    margin-bottom: 20px;
+}
 .panel1 p{
     font-size: 18px;
     line-height: 30px;
@@ -206,14 +217,18 @@ header {
 }
 
 /*área calc*/
-.container_area{
-    width: 1140px;
-    height: 300px;
+.container_area {
+    flex-wrap: wrap;
+    /* flex-direction: column; */
+    width: auto;
+    height: fit-content;
     display: flex;
     align-items: center;
-    margin: auto;
-    justify-content: space-between;
-    
+    /* margin: auto; */
+    margin-left: 10%;
+    margin-right: 10%;
+    /* justify-content:space-between; */
+    align-content: center;
 }
 .container {
     max-width: 400px;
@@ -224,6 +239,7 @@ header {
     box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12), 0 1px 6px rgba(0, 0, 0, 0.12);
     margin-top: 20px;
     background-color: #ececec;
+    align-content: center;
   }
 
   .results {
@@ -372,7 +388,7 @@ main {
 
     .container--panel-descricao{
         width: 93vw;
-        height: 22vh;
+        height: fit-content;
         background-color: #FFF;
         display: flex;
         margin-right: auto;
