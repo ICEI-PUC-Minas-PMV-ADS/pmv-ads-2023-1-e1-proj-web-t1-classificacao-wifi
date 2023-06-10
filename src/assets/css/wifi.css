@@ -9,6 +9,10 @@ body {
     overflow-x:hidden;
 }
 
+main {
+    height: calc(100vh - 155px);
+}
+
 /*Cabeçalho do site*/
 
 header {
@@ -33,6 +37,10 @@ header {
 }
 
 /*menu*/
+
+.menu_opener{
+    display: none;
+}
 
 .header_menu{
     flex: 1;
@@ -68,49 +76,12 @@ header {
     color: #ccc;
 }
 
-/*Estrutura padrão*/
-
-.default{
-    width: 100vw;
-    padding-top: 50px;
-    padding-bottom: 50px;
-}
-.default .section_title,
-.default .section_desc{
-    text-align: center;
-    text-transform: uppercase;
-    font-weight: 600;
-}
-.default .section_title{
-    font-size: 20px;
-}
-.default .section_desc{
-    font-size: 12px;
-    color: #acacac;
-    margin-top: 10px;
-    margin-bottom: 40px;
-}
-.default .section_body{
-    max-width: 1140px;
-    margin: auto;
-}
-.default.light{
-    background-color: #F7F7F7;
-}
-.default.light .section_title,
-.default.light .section_body{
-    color: #000;
-}
-.default.dark{
-    background-color: #000;
-}
-.default.dark .section_title,
-.default.dark .section_body{
-    color: #FFF;
-
-}
 
 /*area wifi*/
+.panel-geral{
+    width: 100vw;
+    height: 100vh;
+}
 .container{
     max-width: 1140px;
     margin: auto;
@@ -149,7 +120,8 @@ header {
 
 .container--panel-descricao{
     width: 1140px;
-    height: 220px;
+    height: 200px;
+    flex-direction: column;
     background-color: #FFF;
     display: flex;
     margin-right: auto;
@@ -168,17 +140,28 @@ header {
 }
 
 .panel1 h3 {
+    margin-bottom: 10px;
     color: #215A60;
     margin-top: 10px;
 }
+.container--panel-descricao p{
+    font-size: 16px;
+    line-height: 30px;
+    margin-top: 30px;
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-bottom: 60px;
+    text-align: justify;
+}
 
-.panel1 p{
+#box-cleito {
     font-size: 18px;
     line-height: 30px;
     margin-top: 30px;
     margin-left: 60px;
     margin-right: 60px;
     text-align: justify;
+    margin-bottom: 20px;
 }
 
 #wifi{
@@ -213,9 +196,11 @@ header {
     align-items: center;
     margin: auto;
     justify-content: space-between;
+    padding-top: 20px;
     
 }
 .container {
+    display: block;
     max-width: 400px;
     margin: 0 auto;
     padding: 10px;
@@ -225,6 +210,61 @@ header {
     margin-top: 20px;
     background-color: #ececec;
   }
+
+.container h3 {
+    
+    text-align: center;
+}
+
+  .results {
+    max-width: 400px;
+    height: 306px;
+    display: inline-block;
+    margin: auto;
+    padding: 10px;
+    border-radius: 2px;
+    border: 0;
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12), 0 1px 6px rgba(0, 0, 0, 0.12);
+    margin-top: 20px;
+    background-color: #ececec;
+  }
+
+  .result-block {
+    width: 300px;
+    height: 80px;
+    padding: 10px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    align-content:space-between;
+    background-color: #f8f7f7;    
+  }
+
+  #containerRA{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#containerRV{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+  p#resultadoRA {
+    font-size: x-large;
+    font-weight: bold;
+    padding: 10px 0px;
+    text-align: center;
+  }
+
+  p#resultadoRV {
+    font-size: x-large;
+    font-weight: bold;
+    padding: 10px 0px;
+    text-align: center;
+  }
+
   
   h2 {
     text-align: center;
@@ -271,10 +311,12 @@ header {
 
 footer {
     display: flex;
+    align-items: center;
     background-color:#000;
     padding:20px;
     width: 100vw;
-    height: 55px;   
+    margin-top: 90px;
+    height: 65px;   
 }
 .footer_area {
     max-width:1140px;
@@ -289,6 +331,272 @@ footer {
     font-size:11px;
     padding:0 5px 5px 5px;
 }
+
+
+@media (min-width: 450px) and (max-width: 800px) {
+    /*Área do menu*/
+    
+    .header_logo {
+        margin-left: 60px;
+    }
+    .menu_opener{
+        display: block;
+        width: 45px;
+        margin-right: 60px;
+    }
+    nav {
+        display: none;
+        position: absolute;
+        z-index: 99;
+        background-color: rgba(0, 0, 0, 0.9);
+        width: 70vw;
+        height: calc(100vh -100px);
+        top: 100px;
+        right: 0;
+    }
+    .header_menu ul {
+        flex-direction: column;
+    }
+    .header_menu li a {
+        font-weight: bold;
+        height: 80px;
+        font-size: 27px;
+        margin-left: 50px;
+        border: 0;
+    }
+    .header_menu li a:hover,
+    .header_menu .activ a{
+    border-bottom: 0;
+}
+/*Rodapé*/
+.footer_area P{
+    line-height:15px;
+    font-size:13px;
+    
+}
+
+/*wifi*/
+.container--panel-descricao {
+
+    width: 650px;
+    height: 240px;
+    margin-top: 90px;
+    
+
+}
+
+.panel1{
+    max-width: 650px;
+    height: 40px;
+    
+}
+.container--panel-descricao p{
+    
+    font-size: 13px;
+    max-width: 600px;
+    height: 100px;
+    margin-top: 15px;
+    line-height: 25px;
+}
+
+.container{
+    width: 300px;
+    height: 300px;
+    justify-content: space-between;
+}
+#containerRA{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#containerRV{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.container_area{
+    display: flex;
+    width: 650px;
+    padding-top: 5px;
+    margin-top: 20px;
+    margin-bottom: 60px;
+
+} 
+.container h2{
+    font-size: 16px;
+}
+.container h3{
+    font-size: 14px;
+}
+.container label{
+    font-size: 14px;
+}
+.result-block{
+    height: 40px;
+}
+.container button{
+    margin-top: 10px;
+    padding: 4px 16px;
+}
+.p#resultadoRA{
+    font-size: 12px;
+
+}
+select{
+    font-size: 15px;
+}
+
+.result-block{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 180px;
+    margin-bottom: 30px;
+}
+
 main {
-    height: calc(100vh - 175px);
+    height: calc(1024px - 345px);
+}
+.header{
+    width: 100vw;
+}
+
+
+}
+
+/*Responsividade celular*/
+
+@media (max-width: 450px){
+    /*Área do menu*/
+    .header_logo{
+        margin-left: 30px;
+    }
+    .menu_opener{
+        display: block;
+        width: 45px;
+        margin-right: 30px;
+    }
+    nav {
+        display: none;
+        position: absolute;
+        z-index: 99;
+        background-color: rgba(0, 0, 0, 0.9);
+        width: 80vw;
+        height: calc(100vh -100px);
+        top: 100px;
+        right: 0;
+    }
+    .header_menu ul {
+        flex-direction: column;
+    }
+    .header_menu li a {
+        font-weight: bold;
+        height: 60px;
+        font-size: 20px;
+        margin-left: 30px;
+        border: 0;
+    }
+    .header_menu li a:hover,
+    .header_menu .activ a{
+    border-bottom: 0;
+}
+
+    
+/*Rodapé*/
+.footer_area P{
+    line-height:15px;
+    font-size:13px;
+    
+}
+
+/*wifi*/
+.container--panel-descricao {
+    width: 350px;
+    height: 200px;
+    margin-top: 70px;  
+}
+
+.panel1{
+    max-width: 350px;
+    height: 40px; 
+}
+.container--panel-descricao p{
+    font-size: 10px;
+    width: 300px;
+    height: 100px;
+    margin-top: 15px;
+    line-height: 15px;
+    margin-left: 25px;
+}
+
+.container{
+    width: 300px;
+    height: 240px;
+    justify-content: space-between;
+}
+#containerRA{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#containerRV{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.container_area{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 300px;
+    padding-top: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+
+} 
+.container h2{
+    font-size: 14px;
+}
+.container h3{
+    font-size: 12px;
+}
+.container label{
+    font-size: 10px;
+}
+.result-block{
+    height: 30px;
+}
+.container button{
+    margin-top: 10px;
+    padding: 2px 8px;
+}
+.p#resultadoRA{
+    font-size: 8px;
+
+}
+select{
+    font-size: 8px;
+}
+
+.result-block{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 180px;
+}
+
+.footer_area P{
+    color:#999;
+    line-height:10px;
+    font-size:10px;
+    padding:0 5px 5px 5px;
+}
+
 }
