@@ -13,8 +13,8 @@ Fornecer uma ferramenta funcional e acessível para avaliar a gravidade clínica
 * Bruno de Lima e Souza
 * Gabriel Muzzi
 * João Paulo de Freitas Teixeira Leite
-* Vanderson Barbosa de Oliveira
 * Luilson de Jesus Brandão
+* Vanderson Barbosa de Oliveira
 
 
 ## Orientador
