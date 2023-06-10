@@ -34,6 +34,10 @@ header {
 
 /*menu*/
 
+.menu_opener{
+    display: none;
+}
+
 .header_menu{
     flex: 1;
     display: flex;
@@ -128,7 +132,7 @@ main{
 /*area direita do login*/
 .section-body{
     width: 350px;
-    height: 350px;
+    height: 390px;
     border-radius: 20px;
     background-color: #edf1f2;
     padding: 50px;
@@ -187,4 +191,130 @@ footer {
     line-height:10px;
     font-size:11px;
     padding:0 5px 5px 5px;
+}
+
+/* Responsividade Tablet*/
+
+@media (min-width: 450px) and (max-width: 800px) {
+    /*Área do menu*/
+    .header_logo{
+        margin-left: 30px;
+    }
+    .menu_opener{
+        display: block;
+        width: 45px;
+        margin-right: 30px;
+    }
+    nav {
+        display: none;
+        position: absolute;
+        z-index: 99;
+        background-color: rgba(0, 0, 0, 0.9);
+        width: 70vw;
+        height: calc(100vh -100px);
+        top: 100px;
+        right: 0;
+    }
+    .header_menu ul {
+        flex-direction: column;
+    }
+    .header_menu li a {
+        font-weight: bold;
+        height: 80px;
+        font-size: 27px;
+        margin-left: 50px;
+        border: 0;
+    }
+    .header_menu li a:hover,
+    .header_menu .activ a{
+    border-bottom: 0;
+}
+
+/*Área do conteúdo*/
+.bg_login{
+    height: calc(100vh - 155px);  
+}
+.section-body{
+    height: 400px;
+    margin-bottom: 30px;
+}
+/*Rodapé*/
+.footer_area P{
+    line-height:15px;
+    font-size:13px;
+    
+}
+
+}
+
+
+/*Responsividade celular*/
+
+@media (max-width: 450px) {
+    
+   
+    /*Área do menu*/
+    .header_logo{
+        margin-left: 30px;
+    }
+    .menu_opener{
+        display: block;
+        width: 45px;
+        margin-right: 30px;
+    }
+    nav {
+        display: none;
+        position: absolute;
+        z-index: 99;
+        background-color: rgba(0, 0, 0, 0.9);
+        width: 80vw;
+        height: calc(100vh -100px);
+        top: 100px;
+        right: 0;
+    }
+    .header_menu ul {
+        flex-direction: column;
+    }
+    .header_menu li a {
+        font-weight: bold;
+        height: 60px;
+        font-size: 20px;
+        margin-left: 30px;
+        border: 0;
+    }
+    .header_menu li a:hover,
+    .header_menu .activ a{
+    border-bottom: 0;
+}
+
+.section_title{
+    padding-top: 40px;
+}
+
+/*Área do conteúdo*/
+.bg_login{
+    height: calc(100% - 100px);  
+}
+.section-body{
+    height: 380px;
+    margin-bottom: 30px;
+}
+
+/*Rodapé*/
+.footer_area P{
+    line-height:10px;
+    font-size:7px;
+    
+}
+}
+
+
+/* Estilo para Erro*/
+
+.error {
+    font-size: 12px;
+    background-color: #FF0000;
+    color: #FFF;
+    padding: 4px;
+    border-radius: 4px;
 }
