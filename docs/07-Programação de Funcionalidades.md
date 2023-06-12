@@ -1,15 +1,22 @@
 # Funcionalidades do Sitemas (Telas)
 
-<span style="color:red">Pré-requisitos: <a href="2-Especificação do Projeto.md"> Especificação do Projeto</a></span>, <a href="3-Projeto de Interface.md"> Projeto de Interface</a>, <a href="4-Metodologia.md"> Metodologia</a>, <a href="3-Projeto de Interface.md"> Projeto de Interface</a>, <a href="5-Arquitetura da Solução.md"> Arquitetura da Solução</a>
+Nesta seção serão apresentadas as telas desenvolvidas para cada uma das funcionalidades do sistema. O respectivo endereço (URL) e outras orientações de acesso serão apresnetadas na sequência.
 
-Implementação do sistema descritas por meio dos requisitos funcionais e/ou não funcionais. Deve relacionar os requisitos atendidos os artefatos criados (código fonte) além das estruturas de dados utilizadas e as instruções para acesso e verificação da implementação que deve estar funcional no ambiente de hospedagem.
+## Cadastro do médico (RF-001)
 
-Para cada requisito funcional, pode ser entregue um artefato desse tipo
+O sistema possui um link para cadastro do usuário médico.
 
-> **Links Úteis**:
->
-> - [Trabalhando com HTML5 Local Storage e JSON](https://www.devmedia.com.br/trabalhando-com-html5-local-storage-e-json/29045)
-> - [JSON Tutorial](https://www.w3resource.com/JSON)
-> - [JSON Data Set Sample](https://opensource.adobe.com/Spry/samples/data_region/JSONDataSetSample.html)
-> - [JSON - Introduction (W3Schools)](https://www.w3schools.com/js/js_json_intro.asp)
-> - [JSON Tutorial (TutorialsPoint)](https://www.tutorialspoint.com/json/index.htm)
+### Requisitos atendidos
+- RF-001: A aplicação deve possuir um cadastro do médico.
+
+
+## Calculadora: classificação WIfI (RF-002, RF-003 e RF-004)
+
+A aplicação possui uma calculadora para gerar o resultado do risco de amputação em 1 ano e do benefício/necessidade de revascularização a partir do método WIfI. Os dados de entrada são inseridos uma única vez em um campo que identifica cada um dos critérios avaliados. Os resultados são exibidos em outro campo que identifica cada resultado exibido.
+
+### Requisitos atendidos
+  - RF-002: A aplicação deve exibir cada questão avaliada pelo método wifi com as opções de resposta pré-definidas em uma caixa de respostas anexa à questão.
+  - RF-003: A aplicação deve calcular ambos os resultados a partir de uma única entrada de dados.
+  - RF-004: A aplicação deve exibir ambos os resultados do método wifi (risco de amputação e estimativa de benefício de revascularização) em dois campos distintos com uma legenda que os identifique, em negrito e fonte maior que os outros textos.
+
+
