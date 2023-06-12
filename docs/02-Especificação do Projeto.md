@@ -35,7 +35,7 @@ A tabela a seguir apresenta os requisitos do projeto, identificando a prioridade
 |------|-----------------------------------------|----|
 |RF-001| A aplicação deve possuir um cadastro do médico. | ALTA | 
 |RF-002|A aplicação deve exibir cada questão avaliada pelo método wifi com as opções de resposta pré-definidas em uma caixa de respostas anexa à questão.  | ALTA |
-|RF-003|A aplicação deve exibir cada questionamento associado à caixa de respostas individualmente.|ALTA|
+|RF-003|A aplicação deve calcular ambos os resultados a partir de uma única entrada de dados. |ALTA|
 |RF-004|A aplicação deve exibir ambos os resultados do método wifi (risco de amputação e estimativa de benefício de revascularização) em dois campos distintos com uma legenda que os identifique, em negrito e fonte maior que os outros textos.|ALTA|
 
 ### Requisitos não Funcionais
