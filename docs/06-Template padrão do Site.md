@@ -1,12 +1,15 @@
 # Template padrão do site
 
-<span style="color:red">Pré-requisitos: <a href="2-Especificação do Projeto.md"> Especificação do Projeto</a></span>, <a href="3-Projeto de Interface.md"> Projeto de Interface</a>, <a href="4-Metodologia.md"> Metodologia</a>
-
+A tela inicial foi construída no template padrão, com a adição de uma imagem de fundo, conforme o seguinte screenshot.
+![SiteScreenshot](img/layout1.png)
 Layout padrão do site (HTML e CSS) que será utilizado em todas as páginas com a definição de identidade visual, aspectos de responsividade e iconografia.
 
-> **Links Úteis**:
->
-> - [CSS Website Layout (W3Schools)](https://www.w3schools.com/css/css_website_layout.asp)
-> - [Website Page Layouts](http://www.cellbiol.com/bioinformatics_web_development/chapter-3-your-first-web-page-learning-html-and-css/website-page-layouts/)
-> - [Perfect Liquid Layout](https://matthewjamestaylor.com/perfect-liquid-layouts)
-> - [How and Why Icons Improve Your Web Design](https://usabilla.com/blog/how-and-why-icons-improve-you-web-design/)
+**Os seguintes screenshots comprovam a responsividade do site para os diversos dispositivos encontrados no mercado.**:
+ > IPad mini:
+ ![SiteScreenshot](img/IPad Mini.png)
+ 
+ > IPhone XR:
+ > ![SiteScreenshot](img/IphoneXR.png)
+
+> Nest Hub Max:
+> ![SiteScreenshot](img/NestHubMax.png)
