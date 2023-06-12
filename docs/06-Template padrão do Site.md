@@ -6,7 +6,7 @@ O padrão de layout a ser utilizado pelo site tem correspondência ao projeto de
 
 ![SiteScreenshot](img/layout.png)
 
-O template criado está disponível no site http://github.com/ e é composto pelos seguintes layouts:
+O template criado está disponível no site [http://github.com/](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t1-classificacao-wifi/blob/main/docs/img/layout.png) e é composto pelos seguintes layouts:
 
 - `Index`: Página inicial onde hospedamos informações sobre o método WIFi, bem como sobre o produto que oferecemos nessa aplicação.
 - `Classificação WIFI`: Onde hospedamos a calculadora do método WIFi.
