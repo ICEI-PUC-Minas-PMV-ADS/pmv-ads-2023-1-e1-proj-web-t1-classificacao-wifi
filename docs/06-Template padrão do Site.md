@@ -15,4 +15,23 @@ O template criado está disponível no site http://github.com/ e é composto pel
 **Responsividade:
 A responsividade foi feita por media queries configuradas de acordo com os principais dispositivos presentes no mercado.**
 
+**Tela Principal:**
+Tela que abrange todas as visualizações iniciais do site, informações sobre o método WIFi, bem como sobre o produto que oferecemos nessa aplicação.
+
+
+COLOCAR TELA INICIAL AQUI, FLOURIMAR
+
+
+**Tela Classificação WIFi:**
+Tela que disponibiliza o produto principal de nossa aplicação, a calculadora do método WIFi.
+
+
+COLOCAR TELA Classificação AQUI, FLOURIMAR
+
+**Tela Login:**
+Tela onde o usuário insere suas informações pessoais para login.
+
+
+COLOCAR TELA Login AQUI, FLOURIMAR
+
 <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t1-classificacao-wifi/blob/main/docs/img/Responsividade.jpg"/>
