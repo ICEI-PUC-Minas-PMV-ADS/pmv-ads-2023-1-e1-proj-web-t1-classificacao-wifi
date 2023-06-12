@@ -12,7 +12,7 @@ O template criado está disponível no site http://github.com/ e é composto pel
 - `Classificação WIFI`: Onde hospedamos a calculadora do método WIFi.
 - `Entrar`: Onde hospedamos a ferramenta de Login da aplicação.
 
-**Responsividade:
-A responsividade foi feita por media queries configuradas de acordo com os principais dispositivos presentes no mercado.**
+**Responsividade:**
+A responsividade foi feita por media queries configuradas de acordo com os principais dispositivos presentes no mercado.
 
 
