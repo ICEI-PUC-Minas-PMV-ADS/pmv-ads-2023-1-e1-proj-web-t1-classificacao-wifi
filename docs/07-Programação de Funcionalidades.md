@@ -6,6 +6,8 @@ Nesta seção serão apresentadas as telas desenvolvidas para cada uma das funci
 
 O sistema possui um link para cadastro do usuário médico.
 
+![TelaCadastro](img/Tela Cadastro.PNG)
+
 ### Requisitos atendidos
 - RF-001: A aplicação deve possuir um cadastro do médico.
 
@@ -13,6 +15,8 @@ O sistema possui um link para cadastro do usuário médico.
 ## Calculadora: classificação WIfI (RF-002, RF-003 e RF-004)
 
 A aplicação possui uma calculadora para gerar o resultado do risco de amputação em 1 ano e do benefício/necessidade de revascularização a partir do método WIfI. Os dados de entrada são inseridos uma única vez em um campo que identifica cada um dos critérios avaliados. Os resultados são exibidos em outro campo que identifica cada resultado exibido.
+
+![TelaCalculadora](img/Tela Calculadora.PNG)
 
 ### Requisitos atendidos
   - RF-002: A aplicação deve exibir cada questão avaliada pelo método wifi com as opções de resposta pré-definidas em uma caixa de respostas anexa à questão.
