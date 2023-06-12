@@ -6,7 +6,7 @@ Nesta seção serão apresentadas as telas desenvolvidas para cada uma das funci
 
 O sistema possui um link para cadastro do usuário médico.
 
-![TelaCadastro](docs/img/Tela Cadastro.PNG)
+<img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t1-classificacao-wifi/blob/main/docs/img/TelaCadastro.PNG"/>
 
 ### Requisitos atendidos
 - RF-001: A aplicação deve possuir um cadastro do médico.
@@ -16,7 +16,7 @@ O sistema possui um link para cadastro do usuário médico.
 
 A aplicação possui uma calculadora para gerar o resultado do risco de amputação em 1 ano e do benefício/necessidade de revascularização a partir do método WIfI. Os dados de entrada são inseridos uma única vez em um campo que identifica cada um dos critérios avaliados. Os resultados são exibidos em outro campo que identifica cada resultado exibido.
 
-![TelaCalculadora](docs/img/Tela Calculadora.PNG)
+<img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t1-classificacao-wifi/blob/main/docs/img/TelaCalculadora.PNG"/>
 
 ### Requisitos atendidos
   - RF-002: A aplicação deve exibir cada questão avaliada pelo método wifi com as opções de resposta pré-definidas em uma caixa de respostas anexa à questão.
