@@ -9,7 +9,7 @@ Layout padrão do site (HTML e CSS) que será utilizado em todas as páginas com
  ![SiteScreenshot](img/IPad Mini.png)
  
  > IPhone XR:
- > ![SiteScreenshot](img/IphoneXR.png)
+ > ![SiteScreenshot](img/Iphone XR.png)
 
 > Nest Hub Max:
 > ![SiteScreenshot](img/NestHubMax.png)
