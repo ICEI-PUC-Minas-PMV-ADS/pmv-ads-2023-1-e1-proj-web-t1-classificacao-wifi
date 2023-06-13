@@ -34,6 +34,7 @@ let validador = {
     //se enviar o formulário
     if(send) {
       form.submit();
+      window.location.href = 'login.html'
     }
   },
   //função que verifica se tem alguma regra
@@ -86,6 +87,8 @@ let validador = {
     let errorElement = document.querySelectorAll('.error');
     for(let i=0; i<errorElement.length;i++) {
       errorElement[i].remove(); //evita a duplicidade dos erros
+      // Redirecionar para a página de login após a limpeza de erros
+      window.location.href = 'login.html'
     }
   }
 };
