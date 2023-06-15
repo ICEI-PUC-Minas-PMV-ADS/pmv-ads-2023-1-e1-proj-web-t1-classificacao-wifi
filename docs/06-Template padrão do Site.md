@@ -1,12 +1,37 @@
-# Template padrão do site
+# Template padrão do site:
 
-<span style="color:red">Pré-requisitos: <a href="2-Especificação do Projeto.md"> Especificação do Projeto</a></span>, <a href="3-Projeto de Interface.md"> Projeto de Interface</a>, <a href="4-Metodologia.md"> Metodologia</a>
+O padrão de layout a ser utilizado pelo site tem correspondência ao projeto de Interface elaborado anteriormente, conforme a imagem a seguir:
 
-Layout padrão do site (HTML e CSS) que será utilizado em todas as páginas com a definição de identidade visual, aspectos de responsividade e iconografia.
 
-> **Links Úteis**:
->
-> - [CSS Website Layout (W3Schools)](https://www.w3schools.com/css/css_website_layout.asp)
-> - [Website Page Layouts](http://www.cellbiol.com/bioinformatics_web_development/chapter-3-your-first-web-page-learning-html-and-css/website-page-layouts/)
-> - [Perfect Liquid Layout](https://matthewjamestaylor.com/perfect-liquid-layouts)
-> - [How and Why Icons Improve Your Web Design](https://usabilla.com/blog/how-and-why-icons-improve-you-web-design/)
+
+![SiteScreenshot](img/layout.png)
+
+O template criado está disponível no site http://github.com/ e é composto pelos seguintes layouts:
+
+- `Index`: Página inicial onde hospedamos informações sobre o método WIFi, bem como sobre o produto que oferecemos nessa aplicação.
+- `Classificação WIFI`: Onde hospedamos a calculadora do método WIFi.
+- `Entrar`: Onde hospedamos a ferramenta de Login da aplicação.
+
+**Tela Principal:**
+Tela que abrange todas as visualizações iniciais do site, informações sobre o método WIFi, bem como sobre o produto que oferecemos nessa aplicação.
+
+
+<img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t1-classificacao-wifi/blob/main/docs/img/Print%20Chrome.jpg"/>
+
+
+**Tela Classificação WIFi:**
+Tela que disponibiliza o produto principal de nossa aplicação, a calculadora do método WIFi.
+
+
+<img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t1-classificacao-wifi/blob/main/docs/img/Calculadora.jpg"/>
+
+**Tela Login:**
+Tela onde o usuário insere suas informações pessoais para login.
+
+
+<img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t1-classificacao-wifi/blob/main/docs/img/Login.jpg"/>
+
+**Responsividade:
+A responsividade foi feita por media queries configuradas de acordo com os principais dispositivos presentes no mercado.**
+
+<img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t1-classificacao-wifi/blob/main/docs/img/Responsividade.jpg"/>

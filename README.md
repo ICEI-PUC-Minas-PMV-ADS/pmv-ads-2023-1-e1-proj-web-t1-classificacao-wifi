@@ -13,8 +13,8 @@ Fornecer uma ferramenta funcional e acessível para avaliar a gravidade clínica
 * Bruno de Lima e Souza
 * Gabriel Muzzi
 * João Paulo de Freitas Teixeira Leite
-* Vanderson Barbosa de Oliveira
 * Luilson de Jesus Brandão
+* Vanderson Barbosa de Oliveira
 
 
 ## Orientador
@@ -43,7 +43,7 @@ Assim que a primeira versão do sistema estiver disponível, deverá complementa
 
 # Hospedagem
 
-* Insira o endereço eletrônico público de acesso ao conteúdo publicado. 
+https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2023-1-e1-proj-web-t1-classificacao-wifi/
 
 # Armazenamento do Código-Fonte
 
