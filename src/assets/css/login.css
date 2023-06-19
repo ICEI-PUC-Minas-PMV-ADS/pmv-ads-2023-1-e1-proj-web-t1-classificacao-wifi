@@ -229,12 +229,28 @@ footer {
     .header_menu .activ a{
     border-bottom: 0;
 }
+<<<<<<< HEAD
+=======
+
+/*Área do conteúdo*/
+.bg_login{
+    height: calc(100vh - 155px);  
+}
+.section-body{
+    height: 400px;
+    margin-bottom: 30px;
+}
+>>>>>>> 1e0924751317e612aef642033103ff85d32b3b61
 /*Rodapé*/
 .footer_area P{
     line-height:15px;
     font-size:13px;
     
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> 1e0924751317e612aef642033103ff85d32b3b61
 }
 
 
@@ -242,6 +258,10 @@ footer {
 
 @media (max-width: 450px) {
     
+<<<<<<< HEAD
+=======
+   
+>>>>>>> 1e0924751317e612aef642033103ff85d32b3b61
     /*Área do menu*/
     .header_logo{
         margin-left: 30px;
@@ -275,13 +295,29 @@ footer {
     .header_menu .activ a{
     border-bottom: 0;
 }
+<<<<<<< HEAD
 .bg_login{
     padding-bottom: 30px;
 }
+=======
+
+>>>>>>> 1e0924751317e612aef642033103ff85d32b3b61
 .section_title{
     padding-top: 40px;
 }
 
+<<<<<<< HEAD
+=======
+/*Área do conteúdo*/
+.bg_login{
+    height: calc(100% - 100px);  
+}
+.section-body{
+    height: 380px;
+    margin-bottom: 30px;
+}
+
+>>>>>>> 1e0924751317e612aef642033103ff85d32b3b61
 /*Rodapé*/
 .footer_area P{
     line-height:10px;
@@ -299,4 +335,8 @@ footer {
     color: #FFF;
     padding: 4px;
     border-radius: 4px;
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 1e0924751317e612aef642033103ff85d32b3b61
