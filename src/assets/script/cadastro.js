@@ -33,9 +33,18 @@ let validador = {
 
     //se enviar o formulário
     if(send) {
+      let formData = {
+        nome: document.querySelector('#nome').value,
+        CRM: document.querySelector('#CRM').value,
+        email: document.querySelector('#email').value,
+        senha: document.querySelector('#senha').value,
+        };
+        let formDataJSON = JSON.stringify(formData);
+        localStorage.setItem('dadosFormulario', formDataJSON);
       form.submit();
       window.location.href = 'login.html'
-    }
+
+      }
   },
   //função que verifica se tem alguma regra
   checkInput:(input)=>{
