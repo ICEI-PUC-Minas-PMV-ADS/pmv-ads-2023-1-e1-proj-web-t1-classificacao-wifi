@@ -11,89 +11,106 @@ menuOpener.addEventListener('click', () => {
   }
 });
 
-// regras do formulário
+//Regras do formulário + login localStorage funcional
 
 let validador = {
-  handleSubmit:(event)=>{
-    event.preventDefault(); //para o comportamento padrão (enviar)
-    let send = true; //enviar o ormulário
+  handleSubmit: (event) => {
+    event.preventDefault();//para o comportamento padrão (enviar)
+    let send = true; //enviar as informações
 
     let inputs = form.querySelectorAll('input'); //pega todos inputs do form
-
     validador.clearErrors();
 
-  for(let i=0; i<inputs.length; i++) {
-    let input = inputs[i]; 
-    let check = validador.checkInput(input);
-    if(check !== true) {
-      send = false;
-      validador.showError(input, check);
-    } //se a função não retornar true exiba o erro
-   } //realiza um loop em cada um dos campos e verifica cada um individualmente
+    for (let i = 0; i < inputs.length; i++) {
+      let input = inputs[i];
+      let check = validador.checkInput(input);
+      if (check !== true) {
+        send = false;
+        validador.showError(input, check);
+      } //se a função não retornar true exiba o erro
+    } //realiza um loop em cada um dos campos e verifica cada um individualmente
 
-    //se enviar o formulário
-    if(send) {
-      form.submit();
-      window.location.href = 'wifi.html'
+    if (send) {
+      const email = form.email.value;
+      const senha = form.senha.value;
+
+      const usuarios = JSON.parse(localStorage.getItem("meusUsuarios")) || [];
+
+      const usuarioValido = usuarios.find(usuario => usuario.email === email);
+
+      //validação do Usuário
+      if (usuarioValido) {
+        if (usuarioValido.senha === senha) {
+          window.location.href = "wifi.html"; // Redirecionar para a página de wifi após verificar a validade do email e senha
+        } else {
+          let senhaInput = form.querySelector('[name=senha]');
+          validador.showError(senhaInput, 'Senha inválida'); //senha inserida != da senha armaznada no localStorage
+        }
+      } else {
+        let emailInput = form.querySelector('[name=email]');
+        validador.showError(emailInput, 'E-mail inválido'); //email inserido != do email armaznado no localStorage
+      }
+
+      form.reset();
     }
   },
+
   //função que verifica se tem alguma regra
-  checkInput:(input)=>{
+  checkInput: (input) => {
     let regras = input.getAttribute('data-regras');
-    if(regras !== null) {
+    if (regras !== null) {
       regras = regras.split('|');
-      for(let k in regras) {
-        let rDatails = regras[k].split('=');
-        switch(rDatails[0]){
-            case 'required':
-              if(input.value === '') { 
-                return 'Este campo é obrigatório.';
+      for (let k in regras) {
+        let rDetails = regras[k].split('=');
+        switch (rDetails[0]) {
+          case 'required':
+            if (input.value === '') {
+              return 'Este campo é obrigatório.';
+            }
+            break;
+          case 'min':
+            if (input.value.length < rDetails[1]) {
+              return 'Este campo precisa ter no mínimo ' + rDetails[1] + ' caracteres';
+            }
+            break;
+          case 'email':
+            if (input.value !== '') {
+              let regex = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+              if (!regex.test(input.value.toLowerCase())) {
+                return 'E-mail digitado não é válido!';
               }
-            break;
-            case 'min':
-              if(input.value.length < rDatails[1]) {
-                return 'Este campo precisa ter no mínimo '+ rDatails[1] +' caracteres';
-              } //requisição de caracteres
-            break;
-            case 'email':
-              if(input.value !=''){
-                let regex = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/; 
-                if(!regex.test(input.value.toLowerCase())) {
-                  return 'E-mail digitado não é válido!';
-                }
-              } //veifica se foi digitado um email
+            }
             break;
         }
       }
     }
     return true;
   },
-  showError:(input, error) =>{
-    input.style.borderColor = '#FF0000'; //quando houver erro deixar a borda vermelha
+
+  showError: (input, error) => {
+    input.style.borderColor = '#FF0000';
 
     let errorElement = document.createElement('div');
     errorElement.classList.add('error');
-    errorElement.innerHTML = error; //exibe o texto
+    errorElement.innerHTML = error;
 
-    input.parentElement.insertBefore(errorElement, input.ElementSibling);
-
+    input.parentElement.insertBefore(errorElement, input.nextElementSibling);
   },
-  clearErrors:()=>{
+
+  //evita a duplicidade dos erros
+      
+  clearErrors: () => {
     let inputs = form.querySelectorAll('input');
-    for(let i=0; i<inputs.length;i++) {
-      inputs[i].style = '';
+    for (let i = 0; i < inputs.length; i++) {
+      inputs[i].style.borderColor = '';
     }
 
-    let errorElement = document.querySelectorAll('.error');
-    for(let i=0; i<errorElement.length;i++) {
-      errorElement[i].remove(); //evita a duplicidade dos erros
-      // Redirecionar para a página de login após a limpeza de erros
-      window.location.href = 'wifi.html'
+    let errorElements = document.querySelectorAll('.error');
+    for (let i = 0; i < errorElements.length; i++) {
+      errorElements[i].remove();
     }
   }
 };
 
 let form = document.querySelector('.validador');
-//bloqueio no envio
 form.addEventListener('submit', validador.handleSubmit);
-

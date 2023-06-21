@@ -105,3 +105,31 @@ let validador = {
 let form = document.querySelector('.validador');
 //bloqueio no envio
 form.addEventListener('submit', validador.handleSubmit);
+
+//Banco local de Usuários (lcalStorage)
+
+let usuarios = localStorage.getItem("meusUsuarios");
+const formulario = document.querySelector("form");
+
+if(usuarios){
+  usuarios = JSON.parse(usuarios);
+} else{
+  usuarios = [];
+}
+
+console.log (usuarios);
+
+formulario.addEventListener("submit", function (e) {
+    e.preventDefault();
+    let novoUsuario = new Object();
+    novoUsuario.nome = this.nome.value;
+    novoUsuario.CRM = this.CRM.value;
+    novoUsuario.email = this.email.value;
+    novoUsuario.senha = this.senha.value;
+    
+    usuarios.push(novoUsuario);
+
+    this.reset();
+
+    localStorage.setItem("meusUsuarios", JSON.stringify(usuarios));
+})
