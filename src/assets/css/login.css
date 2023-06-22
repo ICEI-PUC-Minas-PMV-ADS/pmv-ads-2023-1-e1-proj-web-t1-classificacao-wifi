@@ -170,6 +170,16 @@ main{
 .esqueci_senha{
     text-align: center;
 }
+
+.checkbox-senha {
+    height: 25px;
+    margin-left: 70%;
+    display:inline-flex;
+    padding-top: 3px;
+    padding-bottom: 5px;
+    
+}
+
 /*footer*/
 
 footer {

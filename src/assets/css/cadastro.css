@@ -77,6 +77,16 @@ header {
     height: calc(100vh - 155px);
     
 }
+
+.checkbox-senha {
+    height: 25px;
+    margin-left: 70%;
+    display:inline-flex;
+    padding-top: 3px;
+    padding-bottom: 5px;
+    
+}
+
 /*area esquerda do login*/
 .cadastro .cadastro_filtro{
     height: 100%;

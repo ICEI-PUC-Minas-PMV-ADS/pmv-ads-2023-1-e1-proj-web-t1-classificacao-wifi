@@ -133,3 +133,15 @@ formulario.addEventListener("submit", function (e) {
 
     localStorage.setItem("meusUsuarios", JSON.stringify(usuarios));
 })
+
+// Mostrar/Ocultar senha
+
+function mostrarSenha(){
+  var senha=document.getElementById("senha");
+  if (senha.type=="password"){
+    senha.type="text";    
+  }
+  else {
+    senha.type="password";
+  }
+}
