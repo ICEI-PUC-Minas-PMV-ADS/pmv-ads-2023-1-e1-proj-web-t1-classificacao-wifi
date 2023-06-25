@@ -1,6 +1,6 @@
 # Documentação de Contexto
 
-A classificação WIfI (abreviação para Wound, Ischemia, e foot Infection)  é um sistema de classificação desenvolvido pela Society for Vascular Surgery. Esse sistema leva em consideração três parâmetros - ferida (Wound, W), isquemia (Ischemia, I) e infecção do pé (foot Infection, fI) – os quais são cruzados para se obter a classificação. O objetivo desse sistema de classificação é “fornecer estratificação de risco precisa e precoce ao paciente com membro inferior ameaçado; auxiliar no manejo clinico, premitindo comparar terapias alternativas; e predizer o risco de amputação em 1 ano e a necessidade de revascularização.” (CERQUEIRA et al., 2020)
+A classificação WIfI (abreviação para Wound, Ischemia, e foot Infection)  é um sistema de classificação desenvolvido pela Society for Vascular Surgery. Esse sistema leva em consideração três parâmetros - ferida (Wound, W), isquemia (Ischemia, I) e infecção do pé (foot Infection, fI) – os quais são cruzados para se obter a classificação. O objetivo desse sistema de classificação é “fornecer estratificação de risco precisa e precoce ao paciente com membro inferior ameaçado; auxiliar no manejo clinico, permitindo comparar terapias alternativas; e predizer o risco de amputação em 1 ano e a necessidade de revascularização.” (CERQUEIRA et al., 2020)
 
 ## Problema
 
