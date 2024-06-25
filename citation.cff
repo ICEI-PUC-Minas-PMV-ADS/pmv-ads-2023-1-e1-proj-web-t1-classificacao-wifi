@@ -1,0 +1,30 @@
+message: Please cite this software using these metadata.
+title:
+authors:
+  - family-names: de Lima e Souza
+    given-names: Bruno
+  - family-names: de Freitas Teixeira Leite
+    given-names: João Paulo
+  - family-names: de Jesus Brandão
+    given-names: Luilson
+  - family-names: Muzzi
+    given-names: Gabriel
+  - family-names: Barbosa de Oliveira
+    given-names: Vanderson
+  - family-names: 
+    given-names: 
+  - name-suffix: Professor
+    affiliation: PUC Minas
+    family-names: de Paiva Carval
+    given-names: Joyce Christina
+  - name-suffix: Professor
+    affiliation: PUC Minas
+    family-names: 
+    given-names: 
+keywords:
+  - WIFI
+  - CALCULADORA
+  - HEALTHTECH
+repository-code: https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t1-classificacao-wifi.git
+version: 1.0.0
+date-released: 2023-06-25
